@@ -9,6 +9,7 @@ namespace HelloWorld /* defines namespace. Namespace is a collectional grouping 
     {
         static void Main(string[]args)
         {
+            COnsole.WriteLine("Hello World")
         }
     }
 }
