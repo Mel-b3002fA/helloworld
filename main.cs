@@ -7,7 +7,7 @@ namespace HelloWorld /* defines namespace. Namespace is a collectional grouping 
 { 
     class Program /* defines a class */
     {
-        static void Main(string[]args)
+        static void Main(string[]args) /* main is entry point of programm. Static links the method to the class it is indented in */
         {
             COnsole.WriteLine("Hello World")
         }
