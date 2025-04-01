@@ -9,14 +9,18 @@ namespace Cylinder Calc
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello! This is a test program for calculating the Volumen of a cylinder");
+            System.Console.WriteLine("Hello! This is a test program for calculating the volume of a cylinder");
             Console.Write("Please enter the radius:");
             string RadiusAsString = System.Console.ReadLine();
-            double radius = Convert.ToDouble(RadiusAsString)
+            double radius = Convert.ToDouble(RadiusAsString);
 
-            Console.Write("Please enter the radius:");
-            string RadiusAsString = System.Console.ReadLine();
-            double radius = Convert.ToDouble(RadiusAsString)
+            Console.Write("Please enter the height:");
+            string HeightAsString = System.Console.ReadLine();
+            double radius = Convert.ToDouble(HeightAsString);
+
+            double pi = 3.141592654
+
+            double volume = pi * 
         }
     }
 }
