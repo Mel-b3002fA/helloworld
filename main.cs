@@ -16,7 +16,7 @@ namespace Cylinder Calc
 
             Console.Write("Please enter the height:");
             string HeightAsString = System.Console.ReadLine();
-            double radius = Convert.ToDouble(HeightAsString);
+            double height = Convert.ToDouble(HeightAsString);
 
             double pi = 3.141592654
 
