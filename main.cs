@@ -20,7 +20,7 @@ namespace Cylinder Calc
 
             double pi = 3.141592654
 
-            double volume = pi * 
+            double volume = pi * radius * radius * height;
         }
     }
 }
