@@ -12,6 +12,11 @@ namespace Cylinder Calc
             System.Console.WriteLine("Hello! This is a test program for calculating the Volumen of a cylinder");
             Console.Write("Please enter the radius:");
             string RadiusAsString = System.Console.ReadLine();
+            double radius = Convert.ToDouble(RadiusAsString)
+
+            Console.Write("Please enter the radius:");
+            string RadiusAsString = System.Console.ReadLine();
+            double radius = Convert.ToDouble(RadiusAsString)
         }
     }
 }
