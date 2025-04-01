@@ -10,8 +10,8 @@ namespace Cylinder Calc
         static void Main(string[] args)
         {
             System.Console.WriteLine("Hello! This is a test program for calculating the Volumen of a cylinder");
-            Console.WriteLine("Please enter the radius:");
-            float radius =
+            Console.Write("Please enter the radius:");
+            string RadiusAsString = System.Console.ReadLine();
         }
     }
 }
