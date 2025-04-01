@@ -25,6 +25,8 @@ namespace Cylinder Calc
 
             System.Console.WriteLine($"The cylinders volume is: {volume} cubic units" );
             System.Console.WriteLine($"The cylinders surface area is: {surfaceArea} square units");
+
+            Console.ReadKey();
         }
     }
 }
