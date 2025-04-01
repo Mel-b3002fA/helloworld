@@ -23,7 +23,8 @@ namespace Cylinder Calc
             double volume = pi * radius * radius * height;
             double surfaceArea = 2 * pi * radius * (radius + height);
 
-            System.Console.WriteLine($"The cylinders volume is: {volume}" );
+            System.Console.WriteLine($"The cylinders volume is: {volume} cubic units" );
+            System.Console.WriteLine($"The cylinders surface area is: {surfaceArea} square units");
         }
     }
 }
